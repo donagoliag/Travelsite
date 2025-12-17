@@ -405,3 +405,66 @@ ul li a:hover {
     color: #999;
     font-size: 14px;    
 }
+
+.view-all {
+    margin: 50px 0;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-trip h1{
+    margin-bottom: 20px;
+}
+
+.email-trip p{
+    font-size: 14px;
+    color: #999;
+}
+
+.together {
+    display: flex;
+    justify-content:space-between;
+}
+
+.email-trip .together .text {
+    width: 500px;
+}
+
+.input {
+    border: #fff;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);  
+    height: fit-content; 
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.input input{
+    border: 0;
+    padding: 12px;
+    padding-left: 20px;
+    width: 400px;
+    outline: none;
+}
+
+footer{
+    background-color: #f1f1f1;
+    border-radius: 60px 60px 0 0;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .right-footer{
+    color: #999;
+    font-size: 14px;
+}
+
+footer .right-footer span{
+
+    color: #F6D238;
+
+}
